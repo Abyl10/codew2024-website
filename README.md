@@ -7,6 +7,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
   git clone https://github.com/Abyl10/codew2024-website.git
 ```
 
+You need to make sure that your node version is satisfies the condition: ```node: '>=18.17.0'```. 
+
 2. Install packages using Yarn: 
 ```bash
   yarn install
