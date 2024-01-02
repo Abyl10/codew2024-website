@@ -13,9 +13,17 @@ module.exports = {
       padding: "2rem",
       screens: {
         "2xl": "1400px",
-      },
+      }
     },
     extend: {
+      fontFamily: {
+        bold: "Clash Display Bold",
+        semibold: "Clash Display Semibold",
+        medium: "Clash Display Medium",
+        regular: "Clash Display Regular",
+        light: "Clash Display Light",
+        extralight: "Clash Display Extralight",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
