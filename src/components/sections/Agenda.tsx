@@ -32,8 +32,8 @@ const timetable = [
 export const Agenda = () => {
   return (
     <div className="w-full h-[100vh] flex justify-center items-center">
-      <div className="max-w-[1325px] w-full flex">
-        <div className="flex flex-col">
+      <div className="max-w-[1325px] w-full grid grid-cols-2 gap-28 ">
+        <div className="flex flex-col h-full justify-center items-center">
           <div className="flex flex-col">
             <span className="font-bold text-[100px] text-white">Agenda</span>
             <span className="font-medium text-[35px] text-white -mt-[25px]">
@@ -49,16 +49,32 @@ export const Agenda = () => {
           <div className="text-right w-fit">
             {timetable.map((event) => (
               <div key={event.time} className="flex ">
-                <span className="font-medium text-[30px] text-white w-[100%]">
+                <span className="font-medium text-[30px] text-white w-[100%] mb-[66.5px]">
                   {event.time}
                 </span>
               </div>
             ))}
           </div>
           <div className="text-right w-fit">
+            {timetable.map((event, index) => (
+              <div
+                key={event.time}
+                className="flex flex-col justify-center items-center"
+              >
+                <div className="h-9 w-9 bg-[#EC2B8C] rounded-full mx-10 drop-shadow-[0_2.33px_8px_rgba(236,43,140,0.40)]" />
+
+                {index + 1 != timetable.length && (
+                  <div className="h-[75px] w-[5px] bg-white" />
+                )}
+              </div>
+            ))}
+          </div>
+          <div className="text-left w-fit">
             {timetable.map((event) => (
               <div key={event.time} className="flex ">
-                <div className="h-9 w-9 bg-[#EC2B8C] rounded-full ml-5" />
+                <span className="font-medium text-[30px] text-white w-[100%] mb-[66.5px]">
+                  {event.title}
+                </span>
               </div>
             ))}
           </div>

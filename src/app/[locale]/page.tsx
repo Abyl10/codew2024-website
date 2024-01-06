@@ -2,6 +2,10 @@ import { LanguageSwitcher } from "@/components";
 import { Agenda } from "@/components/sections/Agenda";
 import { ApplicationTimeline } from "@/components/sections/ApplicationTimeline";
 import { CodeW2024 } from "@/components/sections/CodeW2024";
+import CodeWinNetwork from "@/components/sections/CodeWinNetwork";
+import FAQ from "@/components/sections/FAQ";
+import OurPartners from "@/components/sections/OurPartners";
+import OurTeam from "@/components/sections/OurTeam";
 import { WhatIsCodeW } from "@/components/sections/WhatIsCodeW";
 import { useTranslations } from "next-intl";
 
@@ -23,6 +27,10 @@ export default function Home() {
       <WhatIsCodeW />
       <ApplicationTimeline />
       <Agenda />
+      <OurPartners />
+      <OurTeam />
+      <FAQ />
+      <CodeWinNetwork />
     </div>
   );
 }
