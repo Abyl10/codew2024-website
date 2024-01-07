@@ -28,7 +28,7 @@ const textes = [
 
 export const ApplicationTimeline = () => {
   return (
-    <div className="w-full tablet:h-[100vh] flex flex-col items-center justify-center phone:mt-[280px]">
+    <div className="w-full desktop:h-[100vh] flex flex-col items-center justify-center phone:mt-[280px]">
       <div className="max-w-[1750px] w-full px-[88px] phone:px-[35px]">
         <span className="font-semibold text-[100px] text-white phone:text-[24px]">
           Application Timeline
@@ -46,7 +46,7 @@ export const ApplicationTimeline = () => {
                     {event.text}
                   </div>
                   <div className="phone:hidden w-[4px] h-[67px] bg-[#ECECECB2] mt-5 rounded-[5px]" />
-                  <div className="tablet:hidden font-regular text-[40px] text-white phone:text-[14px] phone:mt-2">
+                  <div className="desktop:hidden font-regular text-[40px] text-white phone:text-[14px] phone:mt-2">
                   {event.date}
                 </div>
                 </div>

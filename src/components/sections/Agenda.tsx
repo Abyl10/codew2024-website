@@ -31,7 +31,7 @@ const timetable = [
 
 export const Agenda = () => {
   return (
-    <div className="w-full tablet:h-[100vh] flex justify-center items-center phone:flex-col mt-[140px]">
+    <div className="w-full desktop:h-[100vh] flex justify-center items-center phone:flex-col mt-[140px]">
       <div className="max-w-[1325px] w-full grid grid-cols-2 gap-28 phone:grid-cols-1 phone:gap-12">
         <div className="flex flex-col h-full justify-center items-center">
           <div className="flex flex-col phone:justify-center phone:items-center">
@@ -82,7 +82,7 @@ export const Agenda = () => {
           </div>
         </div>
       </div>
-      <span className="font-light text-[10px] text-white mt-[57px] tablet:hidden max-w-[280px]">
+      <span className="font-light text-[10px] text-white mt-[57px] desktop:hidden max-w-[280px]">
         Note: details are subject to change, registration and closing ceremony
         times are final.
       </span>

@@ -7,7 +7,7 @@ import YoutubeIcon from "@/assets/images/SVG/YoutubeIcon";
 
 const OurTeam = () => {
   return (
-    <div className="w-full tablet:h-[100vh] flex items-center justify-center phone:mt-[290px]">
+    <div className="w-full desktop:h-[100vh] flex items-center justify-center phone:mt-[290px]">
       <div className="max-w-[1600px]">
         <span className="font-medium text-[100px] text-white flex flex-col justify-center items-center phone:text-[36px]">
           Our Team
@@ -35,7 +35,7 @@ const OurTeam = () => {
               <TelegaIcon />
               <YoutubeIcon />
             </div>
-            <div className="w-full flex mt-10 justify-center items-center gap-6 tablet:hidden">
+            <div className="w-full flex mt-10 justify-center items-center gap-6 desktop:hidden">
               <InstaIconMobile />
               <TelegaIconMobile />
               <YouTubeIconMobile />

@@ -7,17 +7,22 @@ import YoutubeIcon from "@/assets/images/SVG/YoutubeIcon";
 import ImageTop from "@/assets/images/Vector 346.png";
 import ImageButtom from "@/assets/images/Vector 347.png";
 import Image from "next/image";
+import MobileTopImage from "@/assets/images/TopMobile.png";
+import MobileBottomImage from "@/assets/images/buttomMobile.png";
 
 const CodeWinNetwork = () => {
   return (
-    <div className="w-full phone:h-[100vh] relative flex flex-col justify-center items-center">
-      <div className="w-full h-[390px] absolute top-0">
+    <div className="w-full h-[100vh] relative flex flex-col justify-center items-center phone:mt-[150px]">
+      <div className="w-full h-[390px] absolute top-0 phone:hidden">
         <Image fill alt="" src={ImageTop} />
+      </div>
+      <div className="w-full h-[300px] absolute top-0 desktop:hidden">
+        <Image fill alt="" src={MobileTopImage} />
       </div>
       <span className="font-semibold text-[74px] text-white phone:text-[18px]">
         code. win. network.
       </span>
-      <button className="bg-gradient-to-b from-[#E42D8F] to-[#8948AF] px-16 py-3 shadow-[0px_4.318px_14.033px_0px_rgba(0, 0, 0, 0.30)_inset] font-medium text-[35px] text-white rounded-full phone:text-[13.5px]">
+      <button className="bg-gradient-to-b bg-[#2E3252] px-16 py-3 shadow-[0px_4.318px_14.033px_0px_rgba(0, 0, 0, 0.30)_inset] font-medium text-[35px] text-white rounded-full phone:text-[13.5px] phone:px-6 phone:mt-2">
         Register
       </button>
 
@@ -41,8 +46,11 @@ const CodeWinNetwork = () => {
         </div>
       </div>
 
-      <div className="w-full h-[280px] absolute bottom-0">
+      <div className="w-full h-[280px] absolute bottom-0 phone:hidden">
         <Image fill alt="" src={ImageButtom} />
+      </div>
+      <div className="w-full h-[228px] absolute bottom-0 desktop:hidden">
+        <Image fill alt="" src={MobileBottomImage} />
       </div>
     </div>
   );
