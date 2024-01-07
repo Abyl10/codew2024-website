@@ -63,9 +63,9 @@ export const faqs = [
 
 const FAQ = () => {
   return (
-    <div className="w-full h-[100vh] flex flex-col justify-center items-center">
-      <div className="max-w-[1450px]">
-        <span className="font-medium text-[100px] text-white flex flex-col">
+    <div className="w-full tablet:h-[100vh] flex flex-col justify-center items-center phone:mt-[125px]">
+      <div className="max-w-[1450px] phone:px-[40px]">
+        <span className="font-medium text-[100px] text-white flex flex-col phone:text-[35px] phone:text-center">
           FAQs
         </span>
         <Accordion faqs={faqs} />

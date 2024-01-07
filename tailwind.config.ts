@@ -78,6 +78,10 @@ module.exports = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      screens: {
+        phone: { max: "810px" },
+        desktop: { min: "810px " },
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],

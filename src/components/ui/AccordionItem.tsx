@@ -21,7 +21,7 @@ const AccordionItem = ({
     <div className="rounded-[8px] bg-[#DCDCDC] text-[100px]">
       <div className="p-4 cursor-pointer" onClick={() => setIsOpen(!isOpen)}>
         <div className="flex justify-between items-center text-lg lg:text-2xl font-medium">
-          <div className="flex items-center space-x-6">
+          <div className="flex items-center space-x-6  phone:text-[10px]">
             <span>{question}</span>
           </div>
 
