@@ -27,7 +27,7 @@ const CodeWinNetwork = () => {
       </button>
 
       <div className="w-full flex justify-center items-center absolute bottom-8 z-10">
-        <div className="flex justify-between w-full max-w-[1590px]  phone:pl-[40px] phone:pr-[25px]">
+        <div className="flex justify-between w-full max-w-[1590px]  phone:pl-[40px] phone:pr-[25px]  desktop:px-[100px]">
           <span className="font-regular text-[29px] text-white phone:text-[8px]">
             © 2023 NU ACM-Women SC All rights reserved.
             <br />

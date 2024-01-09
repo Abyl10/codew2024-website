@@ -2,7 +2,7 @@
 
 export const WhatIsCodeW = () => {
   return (
-    <div className="w-full desktop:h-[100vh] flex items-center justify-center">
+    <div className="w-full desktop:h-[100vh] flex items-center justify-center desktop:px-[120px]">
       <div className="desktop:max-w-[1300px] phone:px-[45px]">
         <span className="font-semibold text-[42px] underline text-white flex phone:text-[15.6px]">
           WHAT IS CODE<span className="text-[#FF62B1]">W</span>2024?

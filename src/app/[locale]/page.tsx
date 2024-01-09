@@ -23,7 +23,6 @@ export default function Home() {
     //TODO: HEADER and other not ready parts
     //TODO for me(Sanzhar): Change styled of codeW2024, and make some fixes at ApplicationTimeline part; add mobile version, and add i18n; fix: background;
     <div className="bg-[url('../../assets/images/bg-image.png')] w-full bg-no-repeat bg-cover	">
-
       <CodeW2024 />
       <WhatIsCodeW />
       <ApplicationTimeline />

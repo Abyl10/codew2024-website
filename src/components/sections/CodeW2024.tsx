@@ -4,7 +4,7 @@ import logo from "@/assets/images/logo.png";
 export const CodeW2024 = () => {
   return (
     <div className="h-[100vh] flex justify-center items-center w-full">
-      <div className="flex phone:flex-col flex-auto justify-between h-fit w-full max-w-[1655px]">
+      <div className="flex phone:flex-col flex-auto justify-between h-fit w-full max-w-[1655px] desktop:pl-[105px] desktop:pr-[20px]">
         <div className="phone:w-full phone:flex phone:flex-col phone:items-center phone:justify-center phone:px-[40px]">
           <p className="font-medium desktop:text-[61px] phone:text-[29px] text-white">5th annual</p>
           <Image className="desktop:hidden" src={logo} alt="invalid image" />

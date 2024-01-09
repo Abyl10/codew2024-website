@@ -7,13 +7,13 @@ import YoutubeIcon from "@/assets/images/SVG/YoutubeIcon";
 
 const OurTeam = () => {
   return (
-    <div className="w-full desktop:h-[100vh] flex items-center justify-center phone:mt-[290px]">
+    <div className="w-full desktop:h-[100vh] flex items-center justify-center phone:mt-[290px] desktop:px-[120px] desktop:mt-[400px]">
       <div className="max-w-[1600px]">
         <span className="font-medium text-[100px] text-white flex flex-col justify-center items-center phone:text-[36px]">
           Our Team
         </span>
 
-        <div className="grid grid-cols-2 gap-10 mt-[75px] phone:grid-cols-1 phone:mt-[21px] phone:mx-[55px]">
+        <div className="grid grid-cols-2 gap-10 mt-[65px] phone:grid-cols-1 phone:mt-[21px] phone:mx-[55px]">
           <span className="font-light text-[30px] text-white phone:text-[11px]">
             NU ACM-W Student Chapter is the first and only branch of the largest
             international organisation of ACM-Women in Kazakhstan and Central
@@ -29,7 +29,7 @@ const OurTeam = () => {
             Ryssayeva (Chair) and Diana Sovetova (Vice-Chair).{" "}
           </span>
           <div>
-            <div className="w-[760px] h-[368px] bg-[#C6E8B1] phone:w-[252px] phone:h-[129px]" />
+            <div className="w-[550px] h-[368px] bg-[#C6E8B1] phone:w-[252px] phone:h-[129px]" />
             <div className="w-full flex mt-10 justify-center items-center gap-6 phone:hidden">
               <InstaIcon />
               <TelegaIcon />
