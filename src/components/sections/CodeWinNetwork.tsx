@@ -12,7 +12,7 @@ import MobileBottomImage from "@/assets/images/buttomMobile.png";
 
 const CodeWinNetwork = () => {
   return (
-    <div className="w-full h-[100vh] relative flex flex-col justify-center items-center phone:mt-[150px]">
+    <div className="w-full h-[110vh] relative flex flex-col justify-center items-center phone:mt-[150px]">
       <div className="w-full h-[390px] absolute top-0 phone:hidden">
         <Image fill alt="" src={ImageTop} />
       </div>
