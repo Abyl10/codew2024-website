@@ -27,7 +27,7 @@ export default function Home() {
       <WhatIsCodeW />
       <ApplicationTimeline />
       <Agenda />
-      <OurPartners />
+      {/* <OurPartners /> */}
       <OurTeam />
       <FAQ />
       <CodeWinNetwork />

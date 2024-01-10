@@ -4,10 +4,12 @@ import TelegaIcon from "@/assets/images/SVG/TelegaIcon";
 import TelegaIconMobile from "@/assets/images/SVG/TelegaIconMobile";
 import YouTubeIconMobile from "@/assets/images/SVG/YouTubeIconMobile";
 import YoutubeIcon from "@/assets/images/SVG/YoutubeIcon";
+import Image from "next/image";
+import Board from "@/assets/images/Board.png";
 
 const OurTeam = () => {
   return (
-    <div className="w-full desktop:h-[100vh] flex items-center justify-center phone:mt-[290px] desktop:px-[120px] desktop:mt-[400px]">
+    <div className="w-full desktop:mt-[280px] flex items-center justify-center phone:mt-[290px] desktop:px-[120px]">
       <div className="max-w-[1600px]">
         <span className="font-medium text-[100px] text-white flex flex-col justify-center items-center phone:text-[36px]">
           Our Team
@@ -29,16 +31,30 @@ const OurTeam = () => {
             Ryssayeva (Chair) and Diana Sovetova (Vice-Chair).{" "}
           </span>
           <div>
-            <div className="w-[550px] h-[368px] bg-[#C6E8B1] phone:w-[252px] phone:h-[129px]" />
+            <div className="w-[550px] h-[368px] phone:w-[252px] phone:h-[129px]">
+              <Image className="object-fill" alt="board" src={Board} />
+            </div>
             <div className="w-full flex mt-10 justify-center items-center gap-6 phone:hidden">
-              <InstaIcon />
-              <TelegaIcon />
-              <YoutubeIcon />
+              <a href="https://www.instagram.com/nuacmsc/">
+                <InstaIcon />
+              </a>
+              <a href="https://t.me/nuacmsc">
+                <TelegaIcon />
+              </a>
+              <a href="https://www.youtube.com/@nuacmsc">
+                <YoutubeIcon />
+              </a>
             </div>
             <div className="w-full flex mt-10 justify-center items-center gap-6 desktop:hidden">
-              <InstaIconMobile />
-              <TelegaIconMobile />
-              <YouTubeIconMobile />
+              <a href="https://www.instagram.com/nuacmsc/">
+                <InstaIconMobile />
+              </a>
+              <a href="https://t.me/nuacmsc">
+                <TelegaIconMobile />
+              </a>
+              <a href="https://www.youtube.com/@nuacmsc">
+                <YouTubeIconMobile />
+              </a>
             </div>
           </div>
         </div>

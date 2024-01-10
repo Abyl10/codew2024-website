@@ -3,67 +3,51 @@ import Accordion from "../ui/Accordion";
 export const faqs = [
   {
     question: "Who can participate in codeW2024?",
-    answer: `Everyone is eligible for online participation! \n
-      Offline participation is available for school (16+) and UG students.
-      `,
+    answer: `All female undergraduate students of universities and female high school students can apply to participate in codeW2024.`,
   },
   {
-    question: "Is participation free?",
+    question: "Is it free?",
+    answer: "Yes, it is absolutely free of charge",
+  },
+  {
+    question: "What if I am not from Astana?",
+    answer: "You are still able to apply and travel to Astana for the contest.",
+  },
+  {
+    question: "What is the qualification round?",
+    answer: `It is a set of competitive programming tasks similar to the actual contest for us to identify the most suitable track for you and for you to practice.`,
+  },
+  {
+    question: "What if I am a complete beginner?",
+    answer: `It is great! codeW2024 is a great opportunity for you to discover the world of competitive programming and get hands-on experience.`,
+  },
+  {
+    question: "Which track do I get?",
     answer:
-      "Yes! Participation is free for both online and offline participants.",
+      "We identify your track based on your qualification round results, so make sure to take it in time.",
   },
   {
-    question: "What's the difference between offline and online participation?",
+    question: "If I competed before, does it affect my track this year?",
+    answer: "Yes, if you won 1st, 2nd or 3rd place in certain track of previous years’ codeW, you will compete only in tracks higher this year.",
+  },
+  {
+    question: "Do I have to know English?",
+    answer: "Not at all, tasks will be given in 3 languages: English, Kazakh and Russian languages",
+  },
+  {
+    question: "What is the format of codeW2024?",
     answer:
-      "Main difference is the eligibility for the prizes. Only offline participants can receive prizes.",
+      "Contest will be held offline in Nazarbayev University, Astana, Kazakhstan",
   },
   {
-    question: "Why do only the offline participants have prizes?",
-    answer: `Since 2020, NU Open has been thoughtfully designed with a focus on catering to the needs and interests of students. It's important to note that all the problems featured in NU Open have been created by students themselves. Our primary objective has consistently been to promote and popularize competitive programming within the student community. This is the main reason why we give prizes only to offline participants. \n 
-  
-      You still have an opportunity to participate online. By choosing this option, you'll have full access to all the problem sets, and we will also provide you with a live standing to follow. 
-      `,
-  },
-  {
-    question: "What are the prizes?",
-    answer: `
-      We prepared a special merch and cash prize for offline participants, in total there would be seven places as follows:
-      1st place: 300k + merch
-      2nd place: 200k + merch 
-      2nd place: 200k + merch 
-      3rd place: 100k + merch
-      3rd place: 100k + merch
-      Best girl team: merch
-      Best school team: merch
-      `,
-  },
-  {
-    question: "Who is eligible for the prize?",
-    answer:
-      "Offline participants (school and undergraduate students who are 16+) are eligible for the prize.",
-  },
-  {
-    question: "I am studying at school, am I eligible for the prize?",
-    answer: "If you are older than 16, yes!",
-  },
-  {
-    question: "I am a masters student, am I eligible for the prize?",
-    answer: "Unfortunately, not",
-  },
-  {
-    question: "Who is the organizer?",
-    answer:
-      "The main organizer of the NU Open 2023 is Nazarbayev University Association for Computing Machinery Student Chapter.",
-  },
-  {
-    question: "How to be a part of NU ACM SC?",
-    answer: `Please visit our <a href="https://nusc.acm.org/" target="_blank" rel="noopener" class='text-red-600 underline'>website</a>, we will reopen recruitment next Spring semester.`,
+    question: "What programming languages are available?",
+    answer: `The contest will be held on Codeforces, and the accepted programming languages are those accepted by the platform.`,
   },
 ];
 
 const FAQ = () => {
   return (
-    <div className="w-full desktop:h-[100vh] flex flex-col justify-center items-center phone:mt-[125px] desktop:px-[120px] desktop:mt-[80px]">
+    <div className="w-full flex flex-col justify-center items-center phone:mt-[125px] desktop:px-[120px] desktop:mt-[210px]">
       <div className="max-w-[1450px] phone:px-[40px]">
         <span className="font-medium text-[100px] text-white flex flex-col phone:text-[35px] phone:text-center">
           FAQs

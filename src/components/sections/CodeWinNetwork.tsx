@@ -12,7 +12,7 @@ import MobileBottomImage from "@/assets/images/buttomMobile.png";
 
 const CodeWinNetwork = () => {
   return (
-    <div className="w-full h-[110vh] relative flex flex-col justify-center items-center phone:mt-[150px]">
+    <div className="w-full desktop:min-h-[1200px] relative flex flex-col justify-center items-center mt-[150px]">
       <div className="w-full h-[390px] absolute top-0 phone:hidden">
         <Image fill alt="" src={ImageTop} />
       </div>
@@ -31,17 +31,29 @@ const CodeWinNetwork = () => {
           <span className="font-regular text-[29px] text-white phone:text-[8px]">
             © 2023 NU ACM-Women SC All rights reserved.
             <br />
-            Made with ❤️ by developer designer names
+            Made with ❤️ by NU ACM-W SC Team
           </span>
           <div className=" flex mt-10 justify-center items-center gap-6 phone:hidden">
-            <InstaIcon />
-            <TelegaIcon />
-            <YoutubeIcon />
+            <a href="https://www.instagram.com/nuacmsc/">
+              <InstaIcon />
+            </a>
+            <a href="https://t.me/nuacmsc">
+              <TelegaIcon />
+            </a>
+            <a href="https://www.youtube.com/@nuacmsc">
+              <YoutubeIcon />
+            </a>
           </div>
           <div className=" flex justify-center items-center gap-2 desktop:hidden">
-            <InstaIconMobile />
-            <TelegaIconMobile />
-            <YouTubeIconMobile />
+            <a href="https://www.instagram.com/nuacmsc/">
+              <InstaIconMobile />
+            </a>
+            <a href="https://t.me/nuacmsc">
+              <TelegaIconMobile />
+            </a>
+            <a href="https://www.youtube.com/@nuacmsc">
+              <YouTubeIconMobile />
+            </a>
           </div>
         </div>
       </div>
