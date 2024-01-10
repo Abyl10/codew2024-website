@@ -11,7 +11,7 @@ export const CodeW2024 = () => {
           <p className="font-bold text-[191px] text-white -mt-[70px] phone:text-[42px] phone:mt-0">codeW</p>
           <p className="font-bold text-[181px] text-white -mt-[80px] phone:text-[42px]  phone:-mt-[20px]">2024</p>
           <button className="bg-gradient-to-b from-[#E42D8F] to-[#8948AF] px-16 py-3 shadow-[0px_4.318px_14.033px_0px_rgba(0, 0, 0, 0.30)_inset] font-medium text-[35px] text-white -mt-[80px] rounded-full phone:mt-4 phone:px-8 phone:text-[15.5px]">
-            Register
+            <a href="https://forms.gle/Lj9QEtEVEpkZi9Fz9" target="_blank" rel="noopener" >Register</a>
           </button>
         </div>
         <Image className="phone:hidden" src={logo} alt="invalid image" />
