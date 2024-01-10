@@ -22,10 +22,15 @@ const CodeWinNetwork = () => {
       <span className="font-semibold text-[74px] text-white phone:text-[18px]">
         code. win. network.
       </span>
-      <button className="bg-gradient-to-b bg-[#2E3252] px-16 py-3 shadow-[0px_4.318px_14.033px_0px_rgba(0, 0, 0, 0.30)_inset] font-medium text-[35px] text-white rounded-full phone:text-[13.5px] phone:px-6 phone:mt-2">
-        Register
-      </button>
-
+      <a
+        href="https://forms.gle/Lj9QEtEVEpkZi9Fz9"
+        target="_blank"
+        rel="noopener"
+      >
+        <button className="bg-gradient-to-b bg-[#2E3252] px-16 py-3 shadow-[0px_4.318px_14.033px_0px_rgba(0, 0, 0, 0.30)_inset] font-medium text-[35px] text-white rounded-full phone:text-[13.5px] phone:px-6 phone:mt-2 transform hover:scale-110 transition-all ease-in-out duration-200">
+          Register
+        </button>
+      </a>
       <div className="w-full flex justify-center items-center absolute bottom-8 z-10">
         <div className="flex justify-between w-full max-w-[1590px]  phone:pl-[40px] phone:pr-[25px]  desktop:px-[100px]">
           <span className="font-regular text-[29px] text-white phone:text-[8px]">
