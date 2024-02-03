@@ -13,7 +13,7 @@ import { useSearchParams } from "next/navigation";
 import { Icons } from "./icons";
 import { useState } from "react";
 
-const { Link, redirect, usePathname, useRouter } =
+const { usePathname, useRouter } =
   createSharedPathnamesNavigation({ locales });
 
 const LanguageSwitcher = () => {
@@ -31,18 +31,18 @@ const LanguageSwitcher = () => {
     <div>
       <DropdownMenu>
         <DropdownMenuTrigger>
-          <div className="flex flex-row uppercase items-center bg-[#BA3A9E] py-1 px-3 rounded-[50px]">
+          <div className="flex flex-row uppercase items-center bg-[#BA3A9E] py-1 px-3 rounded-[50px] font-regular">
             <p className="text-white mr-1.5">{locale}</p>
             <Icons.languageArrowDown />
           </div>
         </DropdownMenuTrigger>
-        <DropdownMenuContent className="uppercase rounded-lg">
+        <DropdownMenuContent className="uppercase rounded-[14px] bg-[#BA3A9E] !text-white font-regular border-none">
           <DropdownMenuRadioGroup
             value={locale}
             onValueChange={(val) => handleClick(val)}
           >
             {locales.map((locale: string) => (
-              <DropdownMenuRadioItem key={locale} value={locale}>
+              <DropdownMenuRadioItem key={locale} value={locale} >
                 {locale}
               </DropdownMenuRadioItem>
             ))}

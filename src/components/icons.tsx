@@ -13,7 +13,7 @@ export const Icons = {
       <path
         d="M1.52437 1.12908L4.91395 7L8.30353 1.12908H1.52437Z"
         fill="white"
-        stroke="black"
+        stroke="white"
       />
     </svg>
   ),

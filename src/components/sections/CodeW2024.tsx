@@ -17,7 +17,7 @@ export const CodeW2024 = () => {
             2024
           </p>
           <a
-            href="https://forms.gle/Lj9QEtEVEpkZi9Fz9"
+            href="https://forms.gle/Lj9QEtEVEpkZi9Fz9" 
             target="_blank"
             rel="noopener"
           >
