@@ -83,11 +83,29 @@ module.exports = {
             display: "block",
           },
         },
+        colorChange: {
+          "0%": {
+            color: "#FFFFFF",
+          },
+          "25%": {
+            color: "#EC2B8C"
+          },
+          "50%": {
+            color: "#19C8EB"
+          },
+          "75%": {
+            color: "#CB0FB0"
+          },
+          "100%": {
+            color: "#9477E2"
+          }
+        }
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         fadeOut: "fadeOut 0.5s linear forwards",
+        colorChange: "colorChange 10s linear infinite"
       },
       screens: {
         phone: { max: "810px" },

@@ -47,8 +47,8 @@ export const faqs = [
 
 const FAQ = () => {
   return (
-    <div className="w-full flex flex-col justify-center items-center phone:mt-[125px] desktop:px-[120px] desktop:mt-[210px]">
-      <div className="max-w-[1450px] phone:px-[40px]">
+    <div className="w-full flex justify-center items-center desktop:mt-[150px]" id="faq">
+      <div className="max-w-[1700px] px-24 phone:px-12">
         <span className="font-medium text-[100px] text-white flex flex-col phone:text-[35px] phone:text-center">
           FAQs
         </span>

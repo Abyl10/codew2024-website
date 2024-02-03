@@ -2,12 +2,12 @@
 
 export const WhatIsCodeW = () => {
   return (
-    <div className="w-full desktop:mt-[230px] flex items-center justify-center desktop:px-[120px]">
-      <div className="desktop:max-w-[1300px] phone:px-[45px]">
-        <span className="font-semibold text-[42px] underline text-white flex phone:text-[15.6px]">
+    <div className="w-full flex justify-center items-center" id="about">
+      <div className="max-w-[1700px] desktop:h-[100vh] px-36 phone:px-6 phone:mt-20 flex flex-col justify-center items-center">
+        <span className="font-semibold text-[32px] underline text-white flex phone:text-[15.6px] w-full text-left">
           WHAT IS CODE<span className="text-[#FF62B1]">W</span>2024?
         </span>
-        <div className="font-medium text-white text-[40px] mt-[95px] phone:text-[14.9px] phone:mt-[30px]">
+        <div className="font-medium text-white text-[32px] mt-[45px] phone:text-[14.9px] phone:mt-[30px]">
           <span className="text-[#FF62B1]">codeW2024</span> is the 5th annual
           national competition in
           <span className="text-[#FF62B1]">competitive programming</span> for
