@@ -52,13 +52,13 @@ const CodeWinNetwork = () => {
             </a>
           </div> */}
           <div className=" flex justify-center items-center gap-2 ">
-            <a href="https://www.instagram.com/nuacmsc/">
+            <a href="https://www.instagram.com/nuacm_wsc/">
               <InstaIconMobile />
             </a>
-            <a href="https://t.me/nuacmsc">
+            <a href="https://t.me/nu_acm_w">
               <TelegaIconMobile />
             </a>
-            <a href="https://www.youtube.com/@nuacmsc">
+            <a href="https://www.youtube.com/watch?v=H2HUSqHp_zw&list=PL71s7KOHU4EpMVgH_C0klBQamfVzYdJ2i">
               <YouTubeIconMobile />
             </a>
           </div>

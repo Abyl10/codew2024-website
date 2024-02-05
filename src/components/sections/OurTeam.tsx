@@ -33,24 +33,24 @@ const OurTeam = () => {
           <div className="flex flex-col justify-center items-center">
             <Image alt="board" src={Board} className="bg-contain grow-0 rounded-[8px]" />
             <div className="flex mt-[40px] gap-12 items-center phone:hidden">
-              <a href="https://www.instagram.com/nuacmsc/">
+              <a href="https://www.instagram.com/nuacm_wsc/">
                 <InstaIcon />
               </a>
-              <a href="https://t.me/nuacmsc">
+              <a href="https://t.me/nu_acm_w">
                 <TelegaIcon />
               </a>
-              <a href="https://www.youtube.com/@nuacmsc">
+              <a href="https://www.youtube.com/watch?v=H2HUSqHp_zw&list=PL71s7KOHU4EpMVgH_C0klBQamfVzYdJ2i">
                 <YoutubeIcon />
               </a>
             </div>
             <div className="w-full flex mt-10 justify-center items-center gap-6 desktop:hidden">
-              <a href="https://www.instagram.com/nuacmsc/">
+              <a href="https://www.instagram.com/nuacm_wsc/">
                 <InstaIconMobile />
               </a>
-              <a href="https://t.me/nuacmsc">
+              <a href="https://t.me/nu_acm_w">
                 <TelegaIconMobile />
               </a>
-              <a href="https://www.youtube.com/@nuacmsc">
+              <a href="https://www.youtube.com/watch?v=H2HUSqHp_zw&list=PL71s7KOHU4EpMVgH_C0klBQamfVzYdJ2i">
                 <YouTubeIconMobile />
               </a>
             </div>
