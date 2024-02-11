@@ -5,28 +5,34 @@
 //   "Confirmation of participation with track based on qualification contest will be sent",
 // ];
 
+import { useTranslations } from "next-intl";
+
 // const dates = ["February 25th", "February 28th", "March 3rd", "March 5th"];
 
-const textes = [
-  {
-    text: "Registration Deadline, no applications will be accepted after 23:59",
-    date: "February 25th",
-  },
-  {
-    text: "Link to the qualification contest will be sent to those who are eligible to participate",
-    date: "February 28th",
-  },
-  {
-    text: "Deadline to complete qualification contest",
-    date: "March 3rd",
-  },
-  {
-    text: "Confirmation of participation with track based on qualification contest will be sent",
-    date: "March 5th",
-  },
-];
 
 export const ApplicationTimeline = () => {
+  
+  const t = useTranslations("applicationTimeline");
+  
+  const textes = [
+    {
+      text: t("firstDataContent"),
+      date: t("firstData"),
+    },
+    {
+      text: t("secondDataContent"),
+      date: t("secondData"),
+    },
+    {
+      text: t("thirdDataContent"),
+      date: t("thirdData"),
+    },
+    {
+      text: t("forthDataContent"),
+      date: t("forthData"),
+    },
+  ];
+
   return (
     <div id="schedule" className="w-full desktop:min-h-[100vh] h-auto flex flex-col items-center justify-center phone:mt-[280px] desktop:mt-[140px]">
       <div className="max-w-[1700px] w-full px-24 phone:px-[35px]">
@@ -70,9 +76,7 @@ export const ApplicationTimeline = () => {
           </div>
         </div>
         <div className="font-light text-white text-[20px] mt-[60px] phone:text-[10px] phone:mt-[30px]">
-          Note: Your participation depends entirely on accurate registration and
-          completion of the qualification round, so make sure to be careful when
-          filling out all the forms!
+          {t("note")}
         </div>
       </div>
     </div>

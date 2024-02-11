@@ -1,35 +1,39 @@
-const timetable = [
-  {
-    time: "9:30-10:00",
-    title: "Registration",
-  },
-  {
-    time: "10:00-11:00",
-    title: "Opening",
-  },
-  {
-    time: "11:00-13:00",
-    title: "Workshop",
-  },
-  {
-    time: "13:00-14:00",
-    title: "Lunch Break",
-  },
-  {
-    time: "14:00-17:00",
-    title: "Main Contest",
-  },
-  {
-    time: "17:00-18:00",
-    title: "Networking",
-  },
-  {
-    time: "18:00-18:30",
-    title: "Closing Ceremony",
-  },
-];
+import { useTranslations } from "next-intl";
 
 export const Agenda = () => {
+
+  const t = useTranslations("agenda")
+
+  const timetable = [
+    {
+      time: "9:30-10:00",
+      title: t("firstEvent"),
+    },
+    {
+      time: "10:00-11:00",
+      title: t("secondEvent"),
+    },
+    {
+      time: "11:00-13:00",
+      title: t("thirdEvent"),
+    },
+    {
+      time: "13:00-14:00",
+      title: t("4thEvent"),
+    },
+    {
+      time: "14:00-17:00",
+      title: t("5thEvent"),
+    },
+    {
+      time: "17:00-18:00",
+      title: t("6thEvent"),
+    },
+    {
+      time: "18:00-18:30",
+      title: t("7thEvent"),
+    },
+  ];
   return (
     <div className="w-full flex justify-center items-center phone:mt-[160px] desktop:mt-[220px]">
       <div className="max-w-[1700px] px-32 w-full phone:px-8">
@@ -37,16 +41,15 @@ export const Agenda = () => {
           <div className="flex flex-col h-full justify-center items-center">
             <div className="flex flex-col phone:justify-center phone:items-center">
               <span className="font-bold text-[100px] text-white phone:text-[36px]">
-                Agenda
+                {t("agenda")}
               </span>
               <span className="font-medium text-[35px] text-white -mt-[25px] phone:text-[13.5px] phone:mt-0">
-                March 9th, 2023 | GMT+6
+                {t("data")} | GMT+6
               </span>
             </div>
 
             <span className="font-light text-[27px] text-white mt-[57px] max-w-[500px] phone:hidden">
-              Note: details are subject to change, registration and closing
-              ceremony times are final.
+              {t("note")}
             </span>
           </div>
           <div className="flex phone:w-full phone: phone:justify-center">
@@ -85,7 +88,7 @@ export const Agenda = () => {
           </div>
         </div>
         <span className="font-light text-[10px] text-white mt-[57px] desktop:hidden max-w-[280px] leading-[0px]">
-          Note: details are subject to change, registration and closing ceremony times are final.
+        {t("note")}
         </span>
       </div>
     </div>

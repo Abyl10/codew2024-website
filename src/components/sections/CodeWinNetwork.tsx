@@ -9,8 +9,12 @@ import ImageButtom from "@/assets/images/Vector 347.png";
 import Image from "next/image";
 import MobileTopImage from "@/assets/images/TopMobile.png";
 import MobileBottomImage from "@/assets/images/buttomMobile.png";
+import { useTranslations } from "next-intl";
 
 const CodeWinNetwork = () => {
+
+  const t = useTranslations("button");
+
   return (
     <div className="w-full flex justify-center items-center relative mt-[200px]">
       <div className="w-full h-[390px] absolute top-0 phone:hidden">
@@ -29,7 +33,7 @@ const CodeWinNetwork = () => {
           rel="noopener"
         >
           <button className="bg-gradient-to-b bg-[#2E3252] px-16 py-3 shadow-[0px_4.318px_14.033px_0px_rgba(0, 0, 0, 0.30)_inset] font-medium text-[20px] text-white rounded-full phone:text-[13.5px] phone:px-6 phone:mt-2 transform hover:scale-110 transition-all ease-in-out duration-200">
-            Register
+            {t("register")}
           </button>
         </a>
       </div>
@@ -40,17 +44,6 @@ const CodeWinNetwork = () => {
             <br />
             Made with ❤️ by NU ACM-W SC Team
           </span>
-          {/* <div className=" flex mt-10 justify-center items-center gap-6 phone:hidden">
-            <a href="https://www.instagram.com/nuacmsc/">
-              <InstaIcon />
-            </a>
-            <a href="https://t.me/nuacmsc">
-              <TelegaIcon />
-            </a>
-            <a href="https://www.youtube.com/@nuacmsc">
-              <YoutubeIcon />
-            </a>
-          </div> */}
           <div className=" flex justify-center items-center gap-2 ">
             <a href="https://www.instagram.com/nuacm_wsc/">
               <InstaIconMobile />

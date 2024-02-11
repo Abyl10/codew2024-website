@@ -28,7 +28,7 @@ const RootLayout = ({
   return (
     <html lang={locale}>
       
-      <body className={inter.className}>{children}</body>
+      <body >{children}</body>
     </html>
   );
 };

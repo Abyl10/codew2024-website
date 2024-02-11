@@ -1,5 +1,71 @@
 {
   "test": {
     "title": "Hello world!"
-  }
+  },
+  "codeW2024" : {
+    "subtitle" : "5th annual"
+  },
+  "whatIsCodeW": {
+    "title": "WHAT IS CODEW2024?",
+    "sectionOne": "is the 5th annual national competition in",
+    "sectionOneRed": "competitive programming",
+    "sectionTwo": "for the university and high school female students. During the competition, the participants will solve a set of problems on algorithms and data structures in their chosen programming language. Contest problems are provided in",
+    "sectionTwoRed": "3 languages:",
+    "sectionThree": "English, Kazakh, and Russian languages. codeW2024 will take place at Nazarbayev University, on March 9th 2024.",
+    "location": "codeW2024 will take place at Nazarbayev University, on March 9th 2024."
+  },
+  "applicationTimeline": {
+    "firstDataContent": "Registration Deadline, after 23:59 no applications will be accepted",
+    "firstData": "February 25th",
+    "secondDataContent": "Link to the contest will be sent to those who are eligible to participate",
+    "secondData": "February 28th",
+    "thirdDataContent": "Deadline to complete qualification contest",
+    "thirdData": "March 3rd",
+    "forthDataContent": "Confirmation of participation with determined track will be sent",
+    "forthData": "March 5th",
+    "note": "Note: Your participation depends entirely on accurate registration and completion of the qualification round, so make sure to be careful when filling out all the forms!"
+  },
+  "agenda": {
+    "agenda": "Agenda",
+    "data": "March 9th, 2024",
+    "firstEvent": "Registration",
+    "secondEvent": "Opening",
+    "thirdEvent": "Workshop",
+    "4thEvent": "Lunch Break",
+    "5thEvent": "Main Contest",
+    "6thEvent": "Networking",
+    "7thEvent": "Closing Ceremony",
+    "note": "Note: details are subject to change, registration and closing ceremony times are final."
+  },
+  "team":{
+    "team": "Our Team",
+    "first": "NU ACM-W Student Chapter is the first and only branch of the largest international organisation of ACM-Women in Kazakhstan and Central Asia. Our goal is to provide women with social and professional support in the field of computer technology, informatics and engineering, as well as to promote their technical growth by organising various events.",
+    "second": "Starting from Fall 2017, our Student Chapter has been showing great professionalism in the organisation of university, city, and nation-level events. Current team of 25 designers, copywriters, event managers, and marketing specialists is led by Aruzhan Ryssayeva (Chair) and Diana Sovetova (Vice-Chair)."
+  },
+  "faq": {
+    "title": "faq",
+    "firstQ": "Who can participate in codeW2024?",
+    "firstA": "All female undergraduate students of universities and female high school students can apply to participate in codeW2024.",
+    "secondQ": "Is it free?",
+    "secondA": "Yes, it is absolutely free of charge",
+    "thirdQ": "What if I am not from Astana?",
+    "thirdA": "You are still able to apply and travel to Astana for the contest.",
+    "4thQ": "What is the qualification round?",
+    "4thA": "It is a set of competitive programming tasks similar to the actual contest for us to identify the most suitable track for you and for you to practice.",
+    "5thQ": "What if I am a complete beginner?",
+    "5thA": "It is great! codeW2024 is a great opportunity for you to discover the world of competitive programming and get hands-on experience.",
+    "6thQ": "Which track do I get?",
+    "6thA": "We identify your track based on your qualification round results, so make sure to take it in time.",
+    "7thQ": "If I competed before, does it affect my track this year?",
+    "7thA": "Yes, if you won 1st, 2nd or 3rd place in certain track of previous years’ codeW, you will compete only in tracks higher this year.",
+    "8thQ": "Do I have to know English?",
+    "8thA": "Not at all, tasks will be given in 3 languages: English, Kazakh and Russian languages",
+    "9thQ": "What is the format of codeW2024?",
+    "9thA": "Contest will be held offline in Nazarbayev University, Astana, Kazakhstan.",
+    "10thQ": "What programming languages are available?",
+    "10thA": "The contest will be held on Codeforces, and the accepted programming languages are those accepted by the platform."
+   },
+   "button": {
+     "register" : "Register"
+   }
 }

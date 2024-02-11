@@ -6,29 +6,24 @@ import YouTubeIconMobile from "@/assets/images/SVG/YouTubeIconMobile";
 import YoutubeIcon from "@/assets/images/SVG/YoutubeIcon";
 import Image from "next/image";
 import Board from "@/assets/images/Board.png";
+import { useTranslations } from "next-intl";
 
 const OurTeam = () => {
+
+  const t = useTranslations("team");
+
   return (
     <div id="team" className="w-full flex justify-center items-center">
       <div className="w-full max-w-[1700px] px-24 phone:px-12 min-h-[100vh] flex flex-col justify-center">
         <span className="font-medium text-[80px] text-white flex flex-col justify-center items-center phone:text-[36px]">
-          Our Team
+          {t("team")}
         </span>
 
         <div className="grid gap-10 grid-cols-2 mt-[40px] phone:grid-cols-1">
           <span className="font-light text-[20px] text-white phone:text-[11px]">
-            NU ACM-W Student Chapter is the first and only branch of the largest
-            international organisation of ACM-Women in Kazakhstan and Central
-            Asia. Our goal is to provide women with social and professional
-            support in the field of computer technology, informatics and
-            engineering, as well as to promote their technical growth by
-            organising various events.
+            {t("first")}
             <br /> <br />
-            Starting from Fall 2017, our Student Chapter has been showing great
-            professionalism in the organisation of university, city, and
-            nation-level events. Current team of 25 designers, copywriters,
-            event managers, and marketing specialists is led by Aruzhan
-            Ryssayeva (Chair) and Diana Sovetova (Vice-Chair).{" "}
+            {t("second")}
           </span>
           <div className="flex flex-col justify-center items-center">
             <Image alt="board" src={Board} className="bg-contain grow-0 rounded-[8px]" />
