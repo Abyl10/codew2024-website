@@ -1,35 +1,38 @@
-"use client";
+"use client"
 import MenuBurgerIcon from "@/assets/images/SVG/MenuBurgerIcon";
 import { LanguageSwitcher } from "..";
 import { useState } from "react";
 import BackArrowIcon from "@/assets/images/SVG/BackArrowIcon";
 import { Item } from "@radix-ui/react-dropdown-menu";
+import { useTranslations } from "next-intl";
 
-const headerContent = [
-  {
-    title: "About",
-    href: "#about",
-  },
-  {
-    title: "Schedule",
-    href: "#schedule"
-  },
-  {
-    title: "Team",
-    href: "#team"
-  },
-  {
-    title: "FAQ",
-    href: "#faq"
-  },
-  {
-    title: "Registration",
-    href: "https://forms.gle/Lj9QEtEVEpkZi9Fz9"
-  },
-];
-
-const Header = () => {
+const Header = (
+  {about, schedule, team, register} : {about: string, schedule: string, team: string, register: string}
+) => {
   const [isBurgerHidden, setIsBurgerHidden] = useState(false);
+  
+  const headerContent = [
+    {
+      title: about,
+      href: "#about",
+    },
+    {
+      title: schedule,
+      href: "#schedule"
+    },
+    {
+      title: team,
+      href: "#team"
+    },
+    {
+      title: "FAQ",
+      href: "#faq"
+    },
+    {
+      title: register,
+      href: "https://forms.gle/Lj9QEtEVEpkZi9Fz9"
+    },
+  ];
 
   return (
     <div className="w-full flex justify-end max-w-[1700px]">

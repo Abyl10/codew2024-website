@@ -17,12 +17,12 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        bold: "Clash Display Bold",
-        semibold: "Clash Display Semibold",
-        medium: "Clash Display Medium",
-        regular: "Clash Display Regular",
-        light: "Clash Display Light",
-        extralight: "Clash Display Extralight",
+        boldC: "Clash Display Bold",
+        semiboldC: "Clash Display Semibold",
+        mediumC: "Clash Display Medium",
+        regularC: "Clash Display Regular",
+        lightC: "Clash Display Light",
+        extralightC: "Clash Display Extralight",
       },
       colors: {
         border: "hsl(var(--border))",

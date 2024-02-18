@@ -11,9 +11,9 @@ export const CodeW2024 = () => {
     <div className="w-full flex justify-center">
       <div className="max-w-[1700px] h-[100vh] w-full px-24 phone:px-12 flex items-center gap-10 justify-between">
         <div className="flex flex-col phone:items-center">
-          <div className="font-medium text-white text-[50px] phone:text-[30px] ">{codew("subtitle")}</div>
+          <div className="font-mediumC text-white text-[50px] phone:text-[30px] ">5th annual</div>
           <Image src={logo} alt="invalid image" className="bg-contain desktop:hidden"/>
-          <span className="font-bold text-white text-[150px] phone:text-[45px] leading-[140px] phone:leading-[45px] whitespace-nowrap phone:text-center mt-6">
+          <span className="font-boldC text-white text-[150px] phone:text-[45px] leading-[140px] phone:leading-[45px] whitespace-nowrap phone:text-center mt-6">
             code
             <span className="phone:text-[#EE707A]">W</span>
             <br /> 2024

@@ -18,7 +18,7 @@ const CodeWinNetwork = () => {
   return (
     <div className="w-full flex justify-center items-center relative mt-[200px]">
       <div className="w-full h-[390px] absolute top-0 phone:hidden">
-        <Image src={ImageTop} alt="invalid photo" />
+        <Image fill src={ImageTop} alt="invalid photo" />
       </div>
       <div className="w-full h-[240px] absolute top-0 desktop:hidden">
         <Image fill alt="" src={MobileTopImage} />
