@@ -11,11 +11,11 @@ import { WhatIsCodeW } from "@/components/sections/WhatIsCodeW";
 import { useTranslations } from "next-intl";
 
 export default function Home() {
-  const t = useTranslations("test");
+  const t = useTranslations("header");
   return (
     <div className="bg-[url('../../assets/images/bg-image.png')] w-full bg-no-repeat bg-cover">
       <div className="flex flex-col items-center fixed w-full bg-[#070919] z-50">
-        <Header />
+        <Header team={t("team")} about={t("about")} register={t("registration")} schedule={t("schedule")} />
       </div>
       <CodeW2024 />
       <WhatIsCodeW />

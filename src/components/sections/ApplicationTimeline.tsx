@@ -37,7 +37,7 @@ export const ApplicationTimeline = () => {
     <div id="schedule" className="w-full desktop:min-h-[100vh] h-auto flex flex-col items-center justify-center phone:mt-[280px] desktop:mt-[140px]">
       <div className="max-w-[1700px] w-full px-24 phone:px-[35px]">
         <span className="font-semibold text-[80px] text-white phone:text-[24px]">
-          Application Timeline
+          {t("title")}
         </span>
 
         <div className="flex flex-col items-center">

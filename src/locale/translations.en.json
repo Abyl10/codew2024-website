@@ -2,6 +2,12 @@
   "test": {
     "title": "Hello world!"
   },
+  "header":{
+    "about": "About",
+    "schedule": "Schedule",
+    "team": "Team",
+    "registration": "Register"
+  },
   "codeW2024" : {
     "subtitle" : "5th annual"
   },
@@ -15,6 +21,7 @@
     "location": "codeW2024 will take place at Nazarbayev University, on March 9th 2024."
   },
   "applicationTimeline": {
+    "title": "Application timeline",
     "firstDataContent": "Registration Deadline, after 23:59 no applications will be accepted",
     "firstData": "February 25th",
     "secondDataContent": "Link to the contest will be sent to those who are eligible to participate",

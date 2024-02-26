@@ -51,7 +51,7 @@ const FAQ = () => {
   return (
     <div className="w-full flex justify-center items-center desktop:mt-[150px]" id="faq">
       <div className="max-w-[1700px] px-24 phone:px-12">
-        <span className="font-medium text-[100px] text-white flex flex-col phone:text-[35px] phone:text-center">
+        <span className="font-mediumC text-[100px] text-white flex flex-col phone:text-[35px] phone:text-center">
           FAQs
         </span>
         <Accordion faqs={faqs} />
