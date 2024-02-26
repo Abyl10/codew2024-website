@@ -7,6 +7,7 @@ import YoutubeIcon from "@/assets/images/SVG/YoutubeIcon";
 import Image from "next/image";
 import Board from "@/assets/images/Board.png";
 import { useTranslations } from "next-intl";
+import ImageACM from "@/assets/images/newACM.jpg";
 
 const OurTeam = () => {
 
@@ -26,7 +27,7 @@ const OurTeam = () => {
             {t("second")}
           </span>
           <div className="flex flex-col justify-center items-center">
-            <Image alt="board" src={Board} className="bg-contain grow-0 rounded-[8px]" />
+            <Image alt="board" src={ImageACM} className="bg-contain grow-0 rounded-[8px]" />
             <div className="flex mt-[40px] gap-12 items-center phone:hidden">
               <a href="https://www.instagram.com/nuacm_wsc/">
                 <InstaIcon />
